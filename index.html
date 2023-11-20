@@ -4,6 +4,7 @@
     <head>
       <title>Carlos Artur</title>
       <link rel="stylesheet" href="styles.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -13,11 +14,25 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Carlos Artur</h2>
             <div>
-              <a class="links-navegacao">Habilidades</a>
-              <a class="links-navegacao">Portfólio</a>
-              <a class="links-navegacao">Experiências</a>
+              <a
+                onclick="onClickScrollTo('section-ability')"
+                class="links-navegacao"
+                >Habilidades</a
+              >
+              <a
+                onclick="onClickScrollTo('section-portfolio')"
+                class="links-navegacao"
+                >Portfólio</a
+              >
+              <a
+                onclick="onClickScrollTo('section-experience')"
+                class="links-navegacao"
+                >Experiências</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -28,7 +43,9 @@
               <p class="hero-info-subtitle">
                 Estudante de programação, com foco em JavaScript, HTML e CSS.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickScrollTo('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
               <div class="hero-info-icons-container">
                 <a>
                   <img
@@ -62,7 +79,7 @@
             </div>
           </div>
         </section>
-        <section class="section-ability">
+        <section class="section-ability" id="section-ability">
           <h2>Habilidades que</h2>
           <h2 class="verde">domino.</h2>
           <div class="ability-card-containers">
@@ -122,7 +139,7 @@
             </div>
           </div>
         </section>
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="section-portfolio">
           <h2>Portfólio de</h2>
           <h2 class="verde">projetos.</h2>
           <div class="section-portfolio-grid">
@@ -203,7 +220,7 @@
             </div>
           </div>
         </section>
-        <section class="section-experience">
+        <section class="section-experience" id="section-experience">
           <h2>Busca</h2>
           <h2 class="verde">Profissional.</h2>
           <div class="section-experience-card">
@@ -223,7 +240,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar?</h2>
           <p>Estou à disposição para ajudar no projeto da sua empresa!</p>
