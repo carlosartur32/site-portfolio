@@ -377,3 +377,42 @@ footer {
   justify-content: space-between;
   width: 40%;
 }
+
+@media only screen and (max-device-width: 450px) {
+  .barra-navegacao {
+    width: 100%;
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+
+  .content-container {
+    width: 96vw;
+    max-width: 96vw;
+  }
+
+  .hero-info-image {
+    width: 202px;
+  }
+
+  .ability-card-containers {
+    row-gap: auto;
+    column-gap: 36px;
+    margin-top: 12px;
+  }
+
+  .section-experience-card {
+    width: 90vw;
+  }
+
+  .section-portfolio-grid {
+    row-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 24px;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+}
