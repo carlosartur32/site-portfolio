@@ -4,8 +4,8 @@
   }
 
   button {
-    height: 64px;
-    font-size: 20px;
+    height: 80px;
+    font-size: 24px;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -20,6 +20,8 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 20px;
   }
 
   .content-container {
@@ -36,8 +38,19 @@
   }
 
   .section-hero {
-    height: auto;
-    padding-bottom: 48px;
+    height: 56vh;
+  }
+
+  .hero-info-title {
+    font-size: 56px;
+    margin-top: 12px;
+  }
+
+  .hero-info-subtitle {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 70%;
+    margin-bottom: 40px;
   }
 
   .hero-info-text-container {
@@ -51,7 +64,7 @@
   }
 
   .hero-info-image {
-    width: 30vw;
+    width: 36vw;
     height: auto;
   }
 
@@ -73,5 +86,15 @@
 
   .footer-content {
     width: 100%;
+  }
+
+  .hero-info-icon-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-info-icons-container {
+    margin-top: 40px;
+    width: 60%;
   }
 }
